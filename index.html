@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fruits</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+           
+    <h1 class="sm:text-3xl font-bold text-white text-center border-red-500 border-4 bg-red-500 p-3">FRESH FRUITS</h1>
+
+    <div class="flex bg-gray-700 justify-center sm:text-xl">
+
+        <h2 class="w-1/6 font-bold text-white text-center py-1"> <a href=Index.html>Home</a> </h2>
+        <h2 class="w-1/6 font-bold text-white text-center py-1"> <a href=AboutUs.html>About Us</a> </h2>
+        <h2 class="w-1/6 font-bold text-white text-center py-1"> <a href=OurFruits.html>Our Fruits</a> </h2>
+        
+    </div>
+
+
+    <div class="sm:flex">
+
+        <img class="sm:w-1/2" src="strawberries.jpg" alt="">
+
+        <div class="sm:flex sm:w-1/2 bg-blue-100">
+            <!-- <div>
+                <p class="text-left m-8">We strive to provide the freshest fruits in the entire universe using Artifical Intelligence and Machine Learning.</p>
+            </div> -->
+            
+            <div class="my-auto">
+                <h1 class="px-20 font-bold text-4xl font-serif text-blue-500">Place an order!</h1>
+                
+                <form class="px-20" action=netlify>
+                    
+                    <div class="py-4">
+                        <label class="font-thin text-2xl text-gray-700" for="name">What is your name?</label>
+                        <div>
+                            <input class="bg-white rounded p-1" type="text" id="name" name="name">
+                        </div>
+                    </div>
+                    
+                    <div class="py-4">
+                        <label class="font-thin text-2xl text-gray-700" for="fruit-order">What fruit would you like to order?</label>
+                        <div>
+                            <input class="bg-white rounded p-1" type="text" id="fruit-order" name="fruit-order">
+                        </div>
+                    </div>
+                    
+                    <div class="py-4">
+                        <button class="font-bold text-2xl bg-blue-600 text-white rounded px-4 py-1">Submit form!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+   
+</body>
+</html>
